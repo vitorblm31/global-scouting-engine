@@ -1,4 +1,4 @@
-# ⚽ Scouting Intelligence — Global Football Engine
+# Scouting Intelligence — Global Football Engine
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white)
@@ -10,12 +10,12 @@ Um motor de recomendação focado em *Football Analytics*, desenvolvido para ide
 
 O projeto une análise de dados, álgebra linear (similaridade de cossenos) e desenvolvimento front-end para gerar um dashboard interativo de scouting totalmente *standalone*.
 
-## 🎯 Objetivo do Projeto
+## Objetivo do Projeto
 Resolver um problema real de scouting de futebol moderno: **"Como encontrar um jogador acessível em uma liga secundária que entregue o mesmo perfil de produção estatística de uma estrela mundial?"**
 
 O sistema analisa dezenas de métricas de desempenho por 90 minutos (passes progressivos, desarmes, ações de criação, etc.) e cruza o perfil numérico dos atletas, ajustando os valores pela dificuldade competitiva de cada liga.
 
-## ⚙️ Arquitetura e Funcionalidades
+##  Arquitetura e Funcionalidades
 
 ### 1. Motor Analítico (Python & Scikit-Learn)
 * **Extração e Tratamento**: Conexão nativa via SQLite (`scouting_engine.db`) e higienização automatizada usando Pandas.
@@ -30,7 +30,7 @@ O sistema analisa dezenas de métricas de desempenho por 90 minutos (passes prog
 * **Filtros em Cascata Inteligentes**: A seleção no painel flui de forma dependente (Liga → Equipe → Jogador Alvo), sem travamentos.
 * **Drill-down Modal**: Ao clicar no jogador sugerido, um *modal* exibe as 8 estatísticas cruciais que motivaram a recomendação matemática.
 
-## 🚀 Como Executar o Projeto Localmente
+##  Como Executar o Projeto Localmente
 
 1. Clone este repositório:
 ```bash
